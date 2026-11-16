@@ -42,9 +42,14 @@ coverage/
 .loopx/state/
 .loopx/cache/
 .loopx/reviews/
+.loopx/memory/
 .loopx/*.sqlite*
 .loopx/**/*.lock
 .loopx/goals/
+
+# Local secrets
+.env.local
+.env.*.local
 
 # Local agent scratch / test isolation artifacts (must never pollute diff scope)
 .workbuddy/
